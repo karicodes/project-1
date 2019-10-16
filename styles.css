@@ -1,7 +1,52 @@
+@import url('https://fonts.googleapis.com/css?family=Liu+Jian+Mao+Cao&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC&display=swap');
+
 #title {
-  color: blue;
+  color: #ffa6c9;
+  text-shadow: 2px 2px #5F9F9F;
+  font-family: 'Amatic SC', cursive;
+  font-size: 180px;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+  position: relative;
+  margin-left: 60px;
+  top: 100px;
 }
 
-#subtitle {
-  color: dodgerblue;
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#header {
+  background: url("https://images.unsplash.com/photo-1517479149777-5f3b1511d5ad?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80") no-repeat;
+  /* background-size: cover; */
+  height: 100vh;
+}
+
+#navbar {
+  font-size: 30px;
+  top: 0;
+  left: 50%;
+  width: 50%;
+  text-align: center;  
+  position: sticky;
+  background-color: transparent;
+  overflow: hidden;
+  bottom: 0;
+}
+
+.nav-link {
+  margin-left: 5px;
+  margin-right: 5px;
+  font-size: 28px;
+  text-decoration: none;
+  color:cornflowerblue;
+  z-index: 1;
+  }
+
+.nav-link:hover {
+  color: #ffa6c9;
 }
