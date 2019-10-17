@@ -126,3 +126,6 @@ text-align: center;
   
 }
 
+.connect-link:hover {
+opacity: 0.75  
+}
