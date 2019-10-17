@@ -67,6 +67,10 @@ body {
   margin-top: 50px;
 }
 
+#about-me {
+  text-align: center;
+}
+
 #suitcase-image {
   transform: rotate(90deg);
   display: block;
